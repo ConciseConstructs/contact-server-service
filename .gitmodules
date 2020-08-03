@@ -4,3 +4,6 @@
 [submodule "lib/classes/crud"]
 	path = lib/classes/crud
 	url = https://github.com/ConciseConstructs/crud.git
+[submodule "lib/interfaces/email-server-service-interface"]
+	path = lib/interfaces/email-server-service-interface
+	url = https://github.com/ConciseConstructs/email-server-service-interface.git

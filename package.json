@@ -1,17 +1,18 @@
 {
-  "name": "database-service",
+  "name": "contact-server-service",
   "version": "1.0.0",
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "description": "This is the server side code that executes multi-data model operations.",
+  "description": "This is the server side code that forwards contact form submissions to a particular email inbox.",
   "dependencies": {
-    "aws-sdk": "^2.439.0"
+    "aws-sdk": "2.439.0"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.14",
-    "@types/node": "^11.11.3",
-    "serverless-plugin-include-dependencies": "^3.2.1"
+    "@types/aws-lambda": "8.10.14",
+    "@types/node": "11.11.3",
+    "serverless-plugin-include-dependencies": "3.2.1",
+    "serverless-tag-api-gateway": "1.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
